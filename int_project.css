@@ -1,0 +1,108 @@
+#style{
+    background-color: gainsboro;
+}
+.space_allocation{
+    display: grid;
+    grid-template-columns: 300px 1fr ;
+    grid-template-areas:'a b'
+    'a b'
+    'a b'
+    ;
+
+}
+#resume_heading{
+    grid-area:a;
+    color: black;
+    background-color:white;
+    height: 100vh;
+    width: 300px;
+    top: 0px;
+    margin-top: 0;
+    left: 0px;
+    margin-left: 0;
+    position:fixed;
+    
+}
+.image_format{
+    top: 0px;
+    left: 0px;
+    width: 300px;
+    height: 300px;
+    position: fixed;
+}
+.resume_heading_inner_content{
+    padding-top: 305px;
+}
+.content{
+    grid-area: b;
+    color:darkblue ;
+    font-size: larger;
+    padding-left: 40px;
+    padding-top: 70px;
+}
+
+.inner_content_allocation{
+    display: flex;
+    flex-direction: column;
+}
+.inner_content_design{
+    color: black;
+    background-color: white;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 3px;
+    text-align: left;
+    font-size:small;
+    font-family: cursive ;
+    margin-right: 40px;
+    margin-left: 0;
+}
+#head{
+    left:0px;
+    top: 0px;
+    margin-top: 0%;
+    color: black;
+    position:fixed;
+    background-color: rgb(255, 5, 5);
+    width:100%;
+    margin-left:300px;
+    padding: 5px;
+}
+.inner2{
+    display: grid;
+    grid-template-columns:100px 1fr ;
+    grid-template-areas: 'a d'
+    'b e'
+    'c f';
+    
+}
+#a{
+    grid-area: a;
+} 
+#b{
+    grid-area: b;
+}   
+#c{
+    grid-area: c;
+} 
+#a{
+    grid-area: d;
+} 
+#b{
+    grid-area: e;
+}   
+#c{
+    grid-area: f;
+} 
+
+
+.myclass{
+    margin-left: 19px;
+    margin-right: 19px; 
+    padding: 10px;
+    background-color: aquamarine;
+    border-radius: 10px;
+    color: black;
+
+}  
+     
